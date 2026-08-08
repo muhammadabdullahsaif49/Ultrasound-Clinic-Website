@@ -19,13 +19,8 @@ Static website for Iqbal Ultrasound, National Diagnostic Complex, Sheikh Zaid Ho
   - `prostate.html` — Prostate (TRUS)
   - `elastography.html` — Elastography
   - `health-screening.html` — Health Screening Packages
-
-## Required but missing assets
-
-These pages reference the following files, which were **not** included in this upload and must be added before the site will render/style correctly:
-
-- `css/styles.css`
-- `js/main.js`
+  - `css/styles.css`
+  - `js/main.js`
 
 Add these under `css/` and `js/` folders at the repo root to match the relative paths already used in the HTML (root pages use `css/styles.css`, service pages use `../css/styles.css`).
 
